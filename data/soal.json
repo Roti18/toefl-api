@@ -1,0 +1,1123 @@
+{
+  "structure": [
+    {
+      "id": "s01",
+      "question": "The new shopping mall _____ next month after two years of construction.",
+      "options": {
+        "A": "will open",
+        "B": "will be opened",
+        "C": "is opening",
+        "D": "opens"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s02",
+      "question": "_____ the weather was terrible, we decided to postpone our picnic.",
+      "options": {
+        "A": "Although",
+        "B": "Because",
+        "C": "Despite",
+        "D": "In spite of"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s03",
+      "question": "The professor asked the students _____ their assignments on time.",
+      "options": {
+        "A": "submit",
+        "B": "to submit",
+        "C": "submitting",
+        "D": "submitted"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s04",
+      "question": "Neither the manager nor his assistants _____ available for the meeting.",
+      "options": { "A": "is", "B": "are", "C": "was", "D": "been" },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s05",
+      "question": "The book _____ by millions of readers worldwide is finally available in Indonesian.",
+      "options": { "A": "reading", "B": "read", "C": "to read", "D": "reads" },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s06",
+      "question": "If I _____ more time, I would have completed the project successfully.",
+      "options": { "A": "have", "B": "had", "C": "had had", "D": "would have" },
+      "correct_answer": "C"
+    },
+    {
+      "id": "s07",
+      "question": "The company's profits have increased _____ 15% compared to last year.",
+      "options": { "A": "by", "B": "with", "C": "in", "D": "at" },
+      "correct_answer": "A"
+    },
+    {
+      "id": "s08",
+      "question": "_____ in 1969, the internet has revolutionized global communication.",
+      "options": {
+        "A": "Invented",
+        "B": "Inventing",
+        "C": "To invent",
+        "D": "Having invented"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "s09",
+      "question": "The harder you work, _____ your chances of success become.",
+      "options": {
+        "A": "better",
+        "B": "the better",
+        "C": "best",
+        "D": "the best"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s10",
+      "question": "Not only _____ excellent grades, but she also participated in many extracurricular activities.",
+      "options": {
+        "A": "she got",
+        "B": "did she get",
+        "C": "she gets",
+        "D": "does she get"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s11",
+      "question": "The research team _____ their findings at the international conference next week.",
+      "options": {
+        "A": "will present",
+        "B": "will be presenting",
+        "C": "are presenting",
+        "D": "present"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s12",
+      "question": "_____ his young age, he has achieved remarkable success in his career.",
+      "options": {
+        "A": "Although",
+        "B": "Despite",
+        "C": "Because of",
+        "D": "Due to"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s13",
+      "question": "The novel _____ into more than 50 languages since its publication.",
+      "options": {
+        "A": "has translated",
+        "B": "has been translated",
+        "C": "was translated",
+        "D": "is translated"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s14",
+      "question": "I wish I _____ more languages when I was younger.",
+      "options": {
+        "A": "learned",
+        "B": "had learned",
+        "C": "would learn",
+        "D": "learn"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s15",
+      "question": "The new regulations require all employees _____ safety training courses.",
+      "options": {
+        "A": "attend",
+        "B": "to attend",
+        "C": "attending",
+        "D": "attended"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s16",
+      "question": "The scientists _____ the experiment three times before publishing their results.",
+      "options": {
+        "A": "conducted",
+        "B": "have conducted",
+        "C": "had conducted",
+        "D": "are conducting"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "s17",
+      "question": "_____ the heavy traffic, we managed to arrive at the airport on time.",
+      "options": {
+        "A": "Although",
+        "B": "Despite",
+        "C": "Because of",
+        "D": "Due to"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s18",
+      "question": "The new policy requires employees _____ their identification cards at all times.",
+      "options": { "A": "wear", "B": "wearing", "C": "to wear", "D": "worn" },
+      "correct_answer": "C"
+    },
+    {
+      "id": "s19",
+      "question": "Not until the rain stopped _____ leave the building.",
+      "options": {
+        "A": "we did",
+        "B": "did we",
+        "C": "we could",
+        "D": "could we"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "s20",
+      "question": "The committee _____ to postpone the meeting until next Friday.",
+      "options": {
+        "A": "has decided",
+        "B": "have decided",
+        "C": "deciding",
+        "D": "decision"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "s21",
+      "question": "The house _____ by the famous architect is now a museum.",
+      "options": {
+        "A": "designing",
+        "B": "designed",
+        "C": "to design",
+        "D": "design"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s22",
+      "question": "If the weather _____ better tomorrow, we will go hiking.",
+      "options": { "A": "is", "B": "was", "C": "were", "D": "will be" },
+      "correct_answer": "A"
+    },
+    {
+      "id": "s23",
+      "question": "The more carefully you plan, _____ likely you are to succeed.",
+      "options": {
+        "A": "more",
+        "B": "most",
+        "C": "the more",
+        "D": "much more"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "s24",
+      "question": "She speaks English _____ fluently _____ her native language.",
+      "options": {
+        "A": "as...as",
+        "B": "so...as",
+        "C": "more...than",
+        "D": "such...as"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "s25",
+      "question": "The students were asked _____ quietly during the examination.",
+      "options": { "A": "work", "B": "working", "C": "to work", "D": "worked" },
+      "correct_answer": "C"
+    },
+    {
+      "id": "s26",
+      "question": "Having _____ all his savings, he decided to look for a part-time job.",
+      "options": { "A": "spend", "B": "spent", "C": "spending", "D": "spends" },
+      "correct_answer": "B"
+    },
+    {
+      "id": "s27",
+      "question": "The professor suggested that the students _____ more attention to grammar.",
+      "options": { "A": "pay", "B": "pays", "C": "paying", "D": "paid" },
+      "correct_answer": "A"
+    },
+    {
+      "id": "s28",
+      "question": "By the time you receive this letter, I _____ for Europe.",
+      "options": {
+        "A": "leave",
+        "B": "will leave",
+        "C": "will have left",
+        "D": "am leaving"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "s29",
+      "question": "The manager insisted that all reports _____ submitted by Friday.",
+      "options": { "A": "are", "B": "were", "C": "be", "D": "being" },
+      "correct_answer": "C"
+    },
+    {
+      "id": "s30",
+      "question": "_____ working hard, she failed to complete the project on time.",
+      "options": {
+        "A": "Despite",
+        "B": "Although",
+        "C": "Because",
+        "D": "Due to"
+      },
+      "correct_answer": "A"
+    }
+  ],
+  "reading": [
+    {
+      "passage_id": 1,
+      "passage_title": "Sustainable Development",
+      "passage_text": "The concept of sustainable development has gained significant attention in recent decades as societies worldwide grapple with environmental challenges and resource depletion. Sustainable development refers to meeting the needs of the present generation without compromising the ability of future generations to meet their own needs. This approach requires balancing economic growth, environmental protection, and social equity.\n\nOne of the key principles of sustainable development is the integration of environmental considerations into economic decision-making. Traditional economic models often prioritize short-term profits over long-term environmental consequences. However, sustainable development advocates argue that environmental degradation ultimately undermines economic prosperity by depleting the natural resources upon which economic activities depend.\n\nThe implementation of sustainable development practices requires cooperation between governments, businesses, and civil society. Governments play a crucial role in establishing policies and regulations that promote sustainable practices. Businesses must adopt environmentally responsible production methods and consider the long-term impacts of their operations. Meanwhile, civil society organizations help raise awareness and hold both governments and businesses accountable for their environmental commitments.",
+      "questions": [
+        {
+          "id": "r01-q1",
+          "question": "According to the passage, sustainable development is primarily concerned with:",
+          "options": {
+            "A": "Maximizing economic growth",
+            "B": "Protecting the environment at all costs",
+            "C": "Balancing present needs with future generations' needs",
+            "D": "Reducing government regulations"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r01-q2",
+          "question": "The passage suggests that traditional economic models:",
+          "options": {
+            "A": "Always consider environmental factors",
+            "B": "Focus on long-term environmental benefits",
+            "C": "Prioritize immediate profits over environmental concerns",
+            "D": "Are superior to sustainable development approaches"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r01-q3",
+          "question": "According to the passage, successful implementation of sustainable development requires:",
+          "options": {
+            "A": "Only government involvement",
+            "B": "Cooperation between multiple stakeholders",
+            "C": "Elimination of all business activities",
+            "D": "Focus solely on environmental protection"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r01-q4",
+          "question": "The word 'grapple' in the first paragraph most closely means:",
+          "options": {
+            "A": "Celebrate",
+            "B": "Ignore",
+            "C": "Struggle with",
+            "D": "Avoid"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r01-q5",
+          "question": "Which of the following best summarizes the main idea of the passage?",
+          "options": {
+            "A": "Environmental protection is more important than economic growth",
+            "B": "Sustainable development balances economic, environmental, and social needs",
+            "C": "Governments should control all environmental decisions",
+            "D": "Traditional economic models are completely useless"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "passage_id": 2,
+      "passage_title": "Urbanization",
+      "passage_text": "The phenomenon of urbanization has dramatically transformed human civilization over the past two centuries. As populations migrate from rural areas to cities, urban centers have become increasingly complex ecosystems that present both opportunities and challenges. Today, more than half of the world's population lives in urban areas, and this proportion is expected to reach 68% by 2050.\n\nCities offer numerous advantages, including better access to education, healthcare, and employment opportunities. The concentration of people and resources in urban areas often leads to innovation and economic growth. However, rapid urbanization also creates significant problems, such as overcrowding, pollution, inadequate infrastructure, and social inequality.\n\nOne of the most pressing challenges facing modern cities is sustainability. Urban areas consume approximately 70% of global energy and produce about 70% of greenhouse gas emissions. As cities continue to grow, finding ways to reduce their environmental impact while maintaining quality of life for residents becomes increasingly important.\n\nSmart city initiatives have emerged as one potential solution to urban challenges. These projects use technology and data analytics to improve city services, reduce resource consumption, and enhance residents' quality of life. Examples include intelligent traffic management systems, energy-efficient buildings, and digital platforms for citizen engagement.",
+      "questions": [
+        {
+          "id": "r02-q1",
+          "question": "According to the passage, what percentage of the world's population is expected to live in urban areas by 2050?",
+          "options": { "A": "50%", "B": "68%", "C": "70%", "D": "75%" },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r02-q2",
+          "question": "The passage mentions all of the following as benefits of cities EXCEPT:",
+          "options": {
+            "A": "Better access to education",
+            "B": "Improved healthcare",
+            "C": "Reduced pollution",
+            "D": "Employment opportunities"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r02-q3",
+          "question": "According to the passage, urban areas are responsible for approximately what percentage of global greenhouse gas emissions?",
+          "options": { "A": "50%", "B": "68%", "C": "70%", "D": "80%" },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r02-q4",
+          "question": "The word 'pressing' in the third paragraph most closely means:",
+          "options": {
+            "A": "Urgent",
+            "B": "Physical",
+            "C": "Insignificant",
+            "D": "Delayed"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": "r02-q5",
+          "question": "Smart city initiatives primarily aim to:",
+          "options": {
+            "A": "Increase urban population",
+            "B": "Use technology to improve city services",
+            "C": "Eliminate all environmental problems",
+            "D": "Replace traditional government structures"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "passage_id": 3,
+      "passage_title": "Climate Change",
+      "passage_text": "Climate change represents one of the most significant challenges facing humanity in the 21st century. The phenomenon, primarily driven by human activities such as burning fossil fuels and deforestation, has led to a steady increase in global temperatures. Scientific evidence overwhelmingly supports the conclusion that human activities are the primary cause of recent climate change.\n\nThe effects of climate change are already visible worldwide. Rising sea levels threaten coastal communities, while extreme weather events such as hurricanes, droughts, and floods have become more frequent and severe. These changes not only affect the environment but also have profound economic and social implications. Agricultural productivity is declining in many regions, forcing communities to adapt their farming practices or relocate entirely.\n\nAddressing climate change requires both mitigation and adaptation strategies. Mitigation involves reducing greenhouse gas emissions through renewable energy adoption, energy efficiency improvements, and changes in industrial processes. Adaptation focuses on adjusting to the unavoidable impacts of climate change, such as building sea walls to protect coastal areas or developing drought-resistant crops.\n\nInternational cooperation is essential for effective climate action. The Paris Agreement, signed by nearly 200 countries, represents a global commitment to limit global temperature increase to well below 2 degrees Celsius above pre-industrial levels. However, current national commitments are insufficient to meet this goal, highlighting the need for more ambitious action.",
+      "questions": [
+        {
+          "id": "r03-q1",
+          "question": "According to the passage, climate change is primarily caused by:",
+          "options": {
+            "A": "Natural climate cycles",
+            "B": "Solar radiation changes",
+            "C": "Human activities",
+            "D": "Ocean current shifts"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r03-q2",
+          "question": "The passage mentions all of the following as effects of climate change EXCEPT:",
+          "options": {
+            "A": "Rising sea levels",
+            "B": "More frequent extreme weather",
+            "C": "Increased agricultural productivity",
+            "D": "Economic implications"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r03-q3",
+          "question": "The word 'profound' in the second paragraph most closely means:",
+          "options": {
+            "A": "Shallow",
+            "B": "Deep and significant",
+            "C": "Temporary",
+            "D": "Unclear"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r03-q4",
+          "question": "According to the passage, mitigation strategies include:",
+          "options": {
+            "A": "Building sea walls",
+            "B": "Developing drought-resistant crops",
+            "C": "Adopting renewable energy",
+            "D": "Relocating communities"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r03-q5",
+          "question": "The Paris Agreement aims to limit global temperature increase to:",
+          "options": {
+            "A": "1 degree Celsius",
+            "B": "Below 2 degrees Celsius",
+            "C": "2.5 degrees Celsius",
+            "D": "3 degrees Celsius"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "passage_id": 4,
+      "passage_title": "Digital Education",
+      "passage_text": "The digital revolution has fundamentally transformed the way we work, communicate, and access information. This transformation has been particularly pronounced in the field of education, where traditional classroom-based learning is increasingly supplemented or replaced by digital alternatives. Online learning platforms, educational apps, and virtual classrooms have made education more accessible to people worldwide.\n\nOne of the most significant advantages of digital education is its accessibility. Students in remote areas who previously had limited access to quality education can now participate in courses offered by prestigious institutions around the world. Additionally, digital education allows for personalized learning experiences, as students can progress at their own pace and focus on areas where they need additional support.\n\nHowever, the shift to digital education also presents challenges. The digital divide – the gap between those who have access to modern information and communication technology and those who do not – remains a significant barrier. Students from low-income families may lack the necessary devices or reliable internet connections to participate fully in digital learning environments.\n\nFurthermore, online learning requires a high degree of self-discipline and motivation from students. Without the structure and social interaction provided by traditional classrooms, some students may struggle to stay engaged and complete their coursework. Educators must therefore develop new strategies to maintain student engagement in digital environments.",
+      "questions": [
+        {
+          "id": "r04-q1",
+          "question": "According to the passage, digital education has made learning more:",
+          "options": {
+            "A": "Expensive",
+            "B": "Difficult",
+            "C": "Accessible",
+            "D": "Traditional"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r04-q2",
+          "question": "The term 'digital divide' refers to:",
+          "options": {
+            "A": "Different types of digital devices",
+            "B": "The gap in access to technology",
+            "C": "Various online learning platforms",
+            "D": "Different teaching methods"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r04-q3",
+          "question": "The passage suggests that online learning requires students to have:",
+          "options": {
+            "A": "Expensive equipment",
+            "B": "Previous experience",
+            "C": "Self-discipline and motivation",
+            "D": "Advanced technical skills"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r04-q4",
+          "question": "Which of the following is mentioned as a challenge of digital education?",
+          "options": {
+            "A": "Too much social interaction",
+            "B": "Lack of course variety",
+            "C": "The digital divide",
+            "D": "Excessive structure"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r04-q5",
+          "question": "The word 'pronounced' in the first paragraph most closely means:",
+          "options": {
+            "A": "Spoken clearly",
+            "B": "Very noticeable",
+            "C": "Officially announced",
+            "D": "Quietly mentioned"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "passage_id": 5,
+      "passage_title": "Artificial Intelligence",
+      "passage_text": "Artificial intelligence (AI) has emerged as one of the most transformative technologies of our time, with applications ranging from healthcare and transportation to entertainment and finance. Machine learning, a subset of AI, enables computers to learn and improve their performance without being explicitly programmed for every task. This capability has led to breakthrough developments in various fields.\n\nIn healthcare, AI systems can analyze medical images with remarkable accuracy, sometimes surpassing human specialists in detecting certain conditions. AI-powered diagnostic tools can identify early signs of diseases such as cancer, potentially saving countless lives through early intervention. Additionally, AI is being used to develop new drugs and treatments, accelerating the research process that traditionally takes years or even decades.\n\nThe transportation industry has also been revolutionized by AI, particularly through the development of autonomous vehicles. Self-driving cars use AI algorithms to process real-time data from sensors and cameras, making split-second decisions about navigation, speed, and safety. While fully autonomous vehicles are still being perfected, many modern cars already incorporate AI-assisted features such as automatic braking and lane departure warnings.\n\nDespite these advances, the widespread adoption of AI raises important ethical and social questions. Concerns about job displacement, privacy, and algorithmic bias must be addressed as AI systems become more prevalent in society. Ensuring that AI development benefits humanity while minimizing potential risks requires careful consideration and regulation.",
+      "questions": [
+        {
+          "id": "r05-q1",
+          "question": "According to the passage, machine learning allows computers to:",
+          "options": {
+            "A": "Replace human workers entirely",
+            "B": "Learn without explicit programming",
+            "C": "Solve any problem automatically",
+            "D": "Work without electricity"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r05-q2",
+          "question": "In healthcare, AI systems are particularly useful for:",
+          "options": {
+            "A": "Replacing doctors completely",
+            "B": "Analyzing medical images",
+            "C": "Performing surgery independently",
+            "D": "Prescribing medications"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r05-q3",
+          "question": "The passage mentions that AI in transportation is used for:",
+          "options": {
+            "A": "Building roads",
+            "B": "Manufacturing cars",
+            "C": "Developing autonomous vehicles",
+            "D": "Training drivers"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r05-q4",
+          "question": "The word 'prevalent' in the last paragraph most closely means:",
+          "options": {
+            "A": "Rare",
+            "B": "Expensive",
+            "C": "Widespread",
+            "D": "Complicated"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r05-q5",
+          "question": "According to the passage, AI development requires:",
+          "options": {
+            "A": "Unlimited funding",
+            "B": "Careful consideration and regulation",
+            "C": "Replacement of all human workers",
+            "D": "Elimination of all current technology"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "passage_id": 6,
+      "passage_title": "Emotional Intelligence",
+      "passage_text": "The concept of emotional intelligence (EI) has gained considerable attention in psychology and business circles over the past few decades. Emotional intelligence refers to the ability to recognize, understand, and manage both our own emotions and those of others. Unlike traditional intelligence quotient (IQ), which measures cognitive abilities, EI focuses on emotional and social competencies that are crucial for personal and professional success.\n\nResearch has shown that individuals with high emotional intelligence tend to be more successful in leadership positions, have better relationships, and experience lower levels of stress. They are better equipped to handle workplace conflicts, communicate effectively, and inspire others. In fact, some studies suggest that emotional intelligence may be more important than IQ for achieving success in many careers.\n\nThe four main components of emotional intelligence are self-awareness, self-regulation, empathy, and social skills. Self-awareness involves understanding one's own emotions and their impact on others. Self-regulation refers to the ability to control impulses and manage emotions effectively. Empathy is the capacity to understand and share the feelings of others, while social skills encompass the ability to build relationships and influence others positively.",
+      "questions": [
+        {
+          "id": "r06-q1",
+          "question": "According to the passage, emotional intelligence differs from IQ because it focuses on:",
+          "options": {
+            "A": "Cognitive abilities",
+            "B": "Mathematical skills",
+            "C": "Emotional and social competencies",
+            "D": "Academic performance"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r06-q2",
+          "question": "The passage suggests that people with high emotional intelligence:",
+          "options": {
+            "A": "Always have high IQs",
+            "B": "Avoid workplace conflicts",
+            "C": "Are more successful in leadership roles",
+            "D": "Never experience stress"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "r06-q3",
+          "question": "How many main components of emotional intelligence are mentioned?",
+          "options": { "A": "Three", "B": "Four", "C": "Five", "D": "Six" },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r06-q4",
+          "question": "The word 'encompass' in the last paragraph most closely means:",
+          "options": {
+            "A": "Exclude",
+            "B": "Include",
+            "C": "Reject",
+            "D": "Ignore"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "r06-q5",
+          "question": "Which of the following is NOT mentioned as a component of emotional intelligence?",
+          "options": {
+            "A": "Self-awareness",
+            "B": "Empathy",
+            "C": "Creativity",
+            "D": "Social skills"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "dialog_id": 1,
+      "dialog_title": "Academic Advisor Meeting",
+      "dialog_script": "/static/audio/dialog/dialog1.mp3",
+      "questions": [
+        {
+          "id": "l-d01-q1",
+          "question": "What is Sarah's main problem?",
+          "options": {
+            "A": "She doesn't understand statistics",
+            "B": "She has scheduling conflicts with required courses",
+            "C": "She doesn't like her advisor",
+            "D": "She wants to change her major"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d01-q2",
+          "question": "What does the advisor recommend?",
+          "options": {
+            "A": "Taking both courses simultaneously",
+            "B": "Taking Advanced Statistics first",
+            "C": "Taking Research Methods first",
+            "D": "Postponing both courses"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-d01-q3",
+          "question": "Why should Sarah register soon?",
+          "options": {
+            "A": "The semester is ending",
+            "B": "Professor Johnson's classes fill up quickly",
+            "C": "The course might be cancelled",
+            "D": "Registration fees will increase"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d01-q4",
+          "question": "What does the advisor say about Professor Johnson?",
+          "options": {
+            "A": "He is very strict",
+            "B": "He makes complex concepts easy to understand",
+            "C": "He only teaches advanced courses",
+            "D": "He is new to the university"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "dialog_id": 2,
+      "dialog_title": "Library Conversation",
+      "dialog_script": "/static/audio/dialog/dialog2.mp3",
+      "questions": [
+        {
+          "id": "l-d02-q1",
+          "question": "Where can the student find marine biology books?",
+          "options": {
+            "A": "First floor",
+            "B": "Second floor",
+            "C": "Third floor",
+            "D": "Fourth floor"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-d02-q2",
+          "question": "How long can regular books be borrowed?",
+          "options": {
+            "A": "One week",
+            "B": "Two weeks",
+            "C": "Three weeks",
+            "D": "One month"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-d02-q3",
+          "question": "How far in advance can study rooms be booked?",
+          "options": {
+            "A": "One day",
+            "B": "Three days",
+            "C": "One week",
+            "D": "Two weeks"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-d02-q4",
+          "question": "What does the librarian say about reference books?",
+          "options": {
+            "A": "They can be borrowed for one week",
+            "B": "They must stay in the library",
+            "C": "They are located on the first floor",
+            "D": "They cannot be accessed by students"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "dialog_id": 3,
+      "dialog_title": "Environmental Science Project Discussion",
+      "dialog_script": "/static/audio/dialog/dialog3.mp3",
+      "questions": [
+        {
+          "id": "l-d03-q1",
+          "question": "What is Lisa researching?",
+          "options": {
+            "A": "Wind energy",
+            "B": "Solar power adoption",
+            "C": "Environmental policies",
+            "D": "Library resources"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d03-q2",
+          "question": "What percentage of Denmark's electricity comes from wind?",
+          "options": {
+            "A": "Over 30%",
+            "B": "Over 40%",
+            "C": "Over 50%",
+            "D": "Over 60%"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d03-q3",
+          "question": "When is their presentation scheduled?",
+          "options": {
+            "A": "This Thursday at 2 PM",
+            "B": "Next Thursday at 2 PM",
+            "C": "This Sunday afternoon",
+            "D": "Next Sunday afternoon"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d03-q4",
+          "question": "Where will they meet to work on their project?",
+          "options": {
+            "A": "In the classroom",
+            "B": "At Mark's house",
+            "C": "At the library",
+            "D": "In the cafeteria"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "dialog_id": 4,
+      "dialog_title": "Thesis Discussion with Professor",
+      "dialog_script": "/static/audio/dialog/dialog4.mp3",
+      "questions": [
+        {
+          "id": "l-d04-q1",
+          "question": "What is the student's thesis topic about?",
+          "options": {
+            "A": "Social media and teenage behavior",
+            "B": "Social media and teenage mental health",
+            "C": "Teenage anxiety and depression",
+            "D": "Mental health treatment methods"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d04-q2",
+          "question": "What does the professor suggest about the topic?",
+          "options": {
+            "A": "It's not relevant",
+            "B": "It's too narrow",
+            "C": "It needs to be more focused",
+            "D": "It's been studied too much"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-d04-q3",
+          "question": "What methodology does the professor recommend?",
+          "options": {
+            "A": "Only surveys",
+            "B": "Only interviews",
+            "C": "Mixed-methods approach",
+            "D": "Experimental design"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-d04-q4",
+          "question": "When is the deadline for thesis proposals?",
+          "options": {
+            "A": "End of this week",
+            "B": "End of this month",
+            "C": "End of next month",
+            "D": "End of the semester"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "dialog_id": 5,
+      "dialog_title": "Course Registration at Administration Office",
+      "dialog_script": "/static/audio/dialog/dialog5.mp3",
+      "questions": [
+        {
+          "id": "l-d05-q1",
+          "question": "What course does the student want to add?",
+          "options": {
+            "A": "Advanced Psychology",
+            "B": "Introduction to Psychology",
+            "C": "Child Psychology",
+            "D": "Social Psychology"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d05-q2",
+          "question": "Who teaches the available section?",
+          "options": {
+            "A": "Professor Martinez",
+            "B": "Professor Johnson",
+            "C": "Professor Williams",
+            "D": "Professor Anderson"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": "l-d05-q3",
+          "question": "When does the class meet?",
+          "options": {
+            "A": "Mondays and Wednesdays",
+            "B": "Tuesdays and Thursdays",
+            "C": "Wednesdays and Fridays",
+            "D": "Mondays and Fridays"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-d05-q4",
+          "question": "How much is the additional course fee?",
+          "options": { "A": "$300", "B": "$400", "C": "$500", "D": "$600" },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "monolog_id": 1,
+      "monolog_title": "Renewable Energy Lecture",
+      "monolog_script": "/static/audio/monolog/monolog1.mp3",
+      "questions": [
+        {
+          "id": "l-m01-q1",
+          "question": "According to the professor, solar power prices have:",
+          "options": {
+            "A": "Increased by 80%",
+            "B": "Remained stable",
+            "C": "Dropped by over 80%",
+            "D": "Become unpredictable"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m01-q2",
+          "question": "What percentage of global electricity does wind energy currently provide?",
+          "options": { "A": "5%", "B": "8%", "C": "10%", "D": "12%" },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-m01-q3",
+          "question": "What is mentioned as a challenge for renewable energy?",
+          "options": {
+            "A": "High costs",
+            "B": "Government regulations",
+            "C": "Intermittent power generation",
+            "D": "Lack of technology"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m01-q4",
+          "question": "When does China aim to reach peak emissions?",
+          "options": {
+            "A": "By 2025",
+            "B": "Before 2030",
+            "C": "By 2040",
+            "D": "By 2050"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-m01-q5",
+          "question": "When does the EU aim to achieve carbon neutrality?",
+          "options": {
+            "A": "By 2030",
+            "B": "By 2040",
+            "C": "By 2050",
+            "D": "By 2060"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m01-q6",
+          "question": "According to the professor, the renewable energy sector:",
+          "options": {
+            "A": "Employs very few people",
+            "B": "Is declining rapidly",
+            "C": "Creates economic opportunities",
+            "D": "Only exists in developed countries"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "monolog_id": 2,
+      "monolog_title": "Campus Events Announcement",
+      "monolog_script": "/static/audio/monolog/monolog2.mp3",
+      "questions": [
+        {
+          "id": "l-m02-q1",
+          "question": "When will the Science Fair be held?",
+          "options": {
+            "A": "April 14th",
+            "B": "April 15th",
+            "C": "April 16th",
+            "D": "April 18th"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-m02-q2",
+          "question": "Where will the Science Fair take place?",
+          "options": {
+            "A": "Student center",
+            "B": "Library",
+            "C": "Main gymnasium",
+            "D": "Conference center"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m02-q3",
+          "question": "When can freshmen register for summer courses?",
+          "options": {
+            "A": "April 15th",
+            "B": "April 18th",
+            "C": "April 20th",
+            "D": "April 22nd"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m02-q4",
+          "question": "Why will the library be closed on Saturday?",
+          "options": {
+            "A": "Holiday",
+            "B": "Maintenance",
+            "C": "Special event",
+            "D": "Staff meeting"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-m02-q5",
+          "question": "Where can students study while the library is closed?",
+          "options": {
+            "A": "Gymnasium",
+            "B": "Classrooms",
+            "C": "Student center",
+            "D": "Dormitories"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m02-q6",
+          "question": "How many companies will be present at the career fair?",
+          "options": {
+            "A": "Over 30",
+            "B": "Over 40",
+            "C": "Over 50",
+            "D": "Over 60"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "monolog_id": 3,
+      "monolog_title": "History of the Internet Lecture",
+      "monolog_script": "/static/audio/monolog/monolog3.mp3",
+      "questions": [
+        {
+          "id": "l-m03-q1",
+          "question": "When was ARPANET created?",
+          "options": { "A": "1950s", "B": "1960s", "C": "1970s", "D": "1980s" },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-m03-q2",
+          "question": "How many universities were initially connected to ARPANET?",
+          "options": { "A": "Two", "B": "Three", "C": "Four", "D": "Five" },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m03-q3",
+          "question": "What was the first message sent over ARPANET?",
+          "options": { "A": "HELLO", "B": "LOGIN", "C": "LO", "D": "TEST" },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m03-q4",
+          "question": "Who invented the World Wide Web?",
+          "options": {
+            "A": "Steve Jobs",
+            "B": "Bill Gates",
+            "C": "Tim Berners-Lee",
+            "D": "Mark Zuckerberg"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "id": "l-m03-q5",
+          "question": "How many internet users were there worldwide by 1995?",
+          "options": {
+            "A": "16 thousand",
+            "B": "16 million",
+            "C": "160 million",
+            "D": "1.6 billion"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-m03-q6",
+          "question": "According to the professor, how many internet users are there today?",
+          "options": {
+            "A": "Over 3.5 billion",
+            "B": "Over 4.5 billion",
+            "C": "Over 5.5 billion",
+            "D": "Over 6.5 billion"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "monolog_id": 4,
+      "monolog_title": "Digital Library Services Announcement",
+      "monolog_script": "/static/audio/monolog/monolog4.mp3",
+      "questions": [
+        {
+          "id": "l-m04-q1",
+          "question": "How many e-books will be available?",
+          "options": {
+            "A": "Over 5,000",
+            "B": "Over 10,000",
+            "C": "Over 15,000",
+            "D": "Over 20,000"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "id": "l-m04-q2",
+          "question": "When will technical support be available?",
+          "options": {
+            "A": "24 hours a day",
+            "B": "Only on weekends",
+            "C": "During regular library hours",
+            "D": "Only in the mornings"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ]
+}
