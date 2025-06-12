@@ -298,7 +298,7 @@ fetch(`${BASE_URL}/api/submit`, {
             <p class="text-gray-600 text-sm mb-3">
               Terjadi saat meminta resource yang tidak ada (mis. tipe soal).
             </p>
-            <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
+            <pre class="bg-gray-50 p-3 rounded text-sm overflow-x-auto"><code>{
   "message": "Tipe soal tidak 
   ditemukan!"
 }</code></pre>
@@ -315,7 +315,7 @@ fetch(`${BASE_URL}/api/submit`, {
             <p class="text-gray-600 text-sm mb-3">
               Terjadi saat validasi data gagal (mis. email sudah terdaftar).
             </p>
-            <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
+            <pre class="bg-gray-50 p-3 rounded text-sm overflow-x-auto"><code>{
   "message": "Validasi gagal.",
   "errors": {
     "email": [
@@ -336,7 +336,9 @@ fetch(`${BASE_URL}/api/submit`, {
             <p class="text-gray-600 text-sm mb-3">
               Terjadi saat format request salah (mis. bukan JSON array).
             </p>
-            <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
+            <pre
+              class="bg-gray-50 p-4 rounded-lg text-sm overflow-x-auto"
+            ><code>{
   "message": "Format input 
   harus berupa array!"
 }</code></pre>
