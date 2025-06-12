@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dokumentasi API Latihan TOEFL DPW</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 6rem;
+      }
+      .copy-button {
+        transition: all 0.2s ease;
+      }
+      .copy-button:hover {
+        transform: translateY(-1px);
+      }
+      pre {
+        font-family: "Courier New", monospace;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header
+      class="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg"
+    >
+      <div class="container mx-auto px-6 py-8">
+        <h1 class="text-4xl font-bold mb-2">Dokumentasi API Latihan TOEFL</h1>
+        <p class="text-blue-100 text-lg">
+          Panduan untuk menggunakan API aplikasi Latihan TOEFL.
+        </p>
+      </div>
+    </header>
+
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+      <div class="container mx-auto px-6">
+        <div class="flex space-x-8 overflow-x-auto">
+          <a
+            href="#gambaran-umum"
+            class="py-4 px-2 border-b-2 border-transparent hover:border-blue-600 transition-colors whitespace-nowrap"
+            >Gambaran Umum</a
+          >
+          <a
+            href="#endpoint"
+            class="py-4 px-2 border-b-2 border-transparent hover:border-blue-600 transition-colors whitespace-nowrap"
+            >Endpoint</a
+          >
+          <a
+            href="#struktur-data"
+            class="py-4 px-2 border-b-2 border-transparent hover:border-blue-600 transition-colors whitespace-nowrap"
+            >Struktur Data</a
+          >
+          <a
+            href="#contoh"
+            class="py-4 px-2 border-b-2 border-transparent hover:border-blue-600 transition-colors whitespace-nowrap"
+            >Contoh Penggunaan</a
+          >
+          <a
+            href="#error"
+            class="py-4 px-2 border-b-2 border-transparent hover:border-blue-600 transition-colors whitespace-nowrap"
+            >Penanganan Error</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-8">
+      <section id="gambaran-umum" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6 border-b pb-2">Gambaran Umum</h2>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <p class="text-gray-600 mb-4">
+            API ini menyediakan akses ke soal-soal latihan TOEFL yang mencakup
+            tiga kategori utama: Structure & Written Expression, Reading
+            Comprehension, dan Listening Comprehension.
+          </p>
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="border-l-4 border-blue-500 pl-4">
+              <h3 class="font-semibold text-lg mb-2">Base URL</h3>
+              <p class="text-sm mb-2 text-gray-500">
+                Gunakan URL ini sebagai dasar panggilan API.
+              </p>
+              <code>https://toefl-api.vercel.app</code>
+            </div>
+            <div class="border-l-4 border-green-500 pl-4">
+              <h3 class="font-semibold text-lg mb-2">Tipe Konten</h3>
+              <p class="text-sm mb-2 text-gray-500">
+                Semua request body dan respons dalam format JSON.
+              </p>
+              <code class="bg-gray-100 px-3 py-1 rounded-full text-sm"
+                >application/json</code
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="endpoint" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6 border-b pb-2">Endpoint API</h2>
+
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <div class="flex items-center mb-4">
+            <span
+              class="text-sm font-bold bg-green-100 text-green-800 px-3 py-1 rounded-full mr-3"
+              >GET</span
+            >
+            <h3 class="text-xl font-semibold font-mono">/api/soal/:tipeSoal</h3>
+          </div>
+          <p class="text-gray-600 mb-4">
+            Mengambil semua soal dari kategori tertentu.
+          </p>
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="font-medium mb-2">Parameter Path:</h4>
+            <p>
+              <code>tipeSoal</code> (wajib): Ganti dengan
+              <code>structure</code>, <code>reading</code>, atau
+              <code>listening</code>.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <div class="flex items-center mb-4">
+            <span
+              class="text-sm font-bold bg-green-100 text-green-800 px-3 py-1 rounded-full mr-3"
+              >GET</span
+            >
+            <h3 class="text-xl font-semibold font-mono">
+              /api/soal/:tipeSoal/random
+            </h3>
+          </div>
+          <p class="text-gray-600 mb-4">
+            Mengambil satu soal (atau satu paket soal untuk Reading/Listening)
+            secara acak dari kategori tertentu.
+          </p>
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="font-medium mb-2">Parameter Path:</h4>
+            <p>
+              <code>tipeSoal</code> (wajib): Ganti dengan
+              <code>structure</code>, <code>reading</code>, atau
+              <code>listening</code>.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <div class="flex items-center mb-4">
+            <span
+              class="text-sm font-bold bg-blue-100 text-blue-800 px-3 py-1 rounded-full mr-3"
+              >POST</span
+            >
+            <h3 class="text-xl font-semibold font-mono">/api/submit</h3>
+          </div>
+          <p class="text-gray-600 mb-4">
+            Mengirimkan jawaban pengguna untuk dihitung skornya. Menerima array
+            jawaban dari berbagai kategori.
+          </p>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="font-medium mb-2">Contoh Body Request:</h4>
+              <pre class="text-sm text-gray-700 overflow-x-auto"><code>[
+  {
+    "id": "s01",
+    "userAnswer": "B"
+  },
+  {
+    "id": "r01-q1",
+    "userAnswer": "A"
+  }
+]</code></pre>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="font-medium mb-2">Contoh Respons:</h4>
+              <pre class="text-sm text-gray-700 overflow-x-auto"><code>{
+  "correctAnswers": 1,
+  "totalQuestions": 2,
+  "score": 50
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="struktur-data" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6 border-b pb-2">Struktur Data</h2>
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <h3 class="text-xl font-semibold mb-4">Soal Structure</h3>
+          <pre class="bg-gray-50 p-4 rounded-lg text-sm overflow-x-auto"><code>{
+  "id": "s01",
+  "question": "The new shopping mall _____ next month after two years of construction.",
+  "options": {
+    "A": "will open",
+    "B": "will be opened",
+    "C": "is opening",
+    "D": "opens"
+  },
+  "correct_answer": "B"
+}</code></pre>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <h3 class="text-xl font-semibold mb-4">Soal Reading</h3>
+          <pre class="bg-gray-50 p-4 rounded-lg text-sm overflow-x-auto"><code>{
+  "passage_id": 1,
+  "passage_title": "Sustainable Development",
+  "passage_text": "The concept of sustainable development has gained significant attention in recent decades as societies worldwide grapple with environmental challenges and resource depletion. Sustainable development refers to meeting the needs of the present generation without compromising the ability of future generations to meet their own needs. This approach requires balancing economic growth, environmental protection, and social equity.\n\nOne of the key principles of sustainable development is the integration of environmental considerations into economic decision-making. Traditional economic models often prioritize short-term profits over long-term environmental consequences. However, sustainable development advocates argue that environmental degradation ultimately undermines economic prosperity by depleting the natural resources upon which economic activities depend.\n\nThe implementation of sustainable development practices requires cooperation between governments, businesses, and civil society. Governments play a crucial role in establishing policies and regulations that promote sustainable practices. Businesses must adopt environmentally responsible production methods and consider the long-term impacts of their operations. Meanwhile, civil society organizations help raise awareness and hold both governments and businesses accountable for their environmental commitments.",
+  "questions": [
+    {
+      "id": "r01-q1",
+      "question": "According to the passage, sustainable development is primarily concerned with:",
+      "options": {
+        "A": "Maximizing economic growth",
+        "B": "Protecting the environment at all costs",
+        "C": "Balancing present needs with future generations' needs",
+        "D": "Reducing government regulations"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}</code></pre>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <h3 class="text-xl font-semibold mb-4">Soal Listening</h3>
+          <pre class="bg-gray-50 p-4 rounded-lg text-sm overflow-x-auto"><code>{
+  "dialog_id": 1,
+  "dialog_title": "Academic Advisor Meeting",
+  "dialog_script": "/static/audio/dialog/dialog1.mp3",
+  "questions": [
+    {
+      "id": "l-d01-q1",
+      "question": "What is Sarah's main problem?",
+      "options": {
+        "A": "She doesn't understand statistics",
+        "B": "She has scheduling conflicts with required courses",
+        "C": "She doesn't like her advisor",
+        "D": "She wants to change her major"
+      },
+      "correct_answer": "B"
+    }
+  ]
+}</code></pre>
+        </div>
+      </section>
+
+      <section id="contoh" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6 border-b pb-2">Contoh Penggunaan</h2>
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <h3 class="text-xl font-semibold mb-4">JavaScript (API Fetch)</h3>
+          <div class="relative">
+            <button
+              onclick="copyToClipboard('js-example', this)"
+              class="absolute top-2 right-2 bg-blue-500 text-white px-3 py-1 rounded text-sm copy-button hover:bg-blue-600"
+            >
+              Salin
+            </button>
+            <pre
+              id="js-example"
+              class="bg-gray-900 text-white p-4 rounded-lg text-sm overflow-x-auto"
+            ><code>const BASE_URL = 'https://toefl-api.vercel.app';
+
+// Mengambil soal structure acak
+fetch(`${BASE_URL}/api/soal/structure/random`)
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Mengirim jawaban untuk dihitung
+const userAnswers = [
+  { id: 's01', userAnswer: 'B' },
+  { id: 'r02-q1', userAnswer: 'A' }
+];
+
+fetch(`${BASE_URL}/api/submit`, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(userAnswers)
+})
+.then(response => response.json())
+.then(result => {
+  console.log(`Skor Anda: ${result.score}%`);
+});</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="error" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6 border-b pb-2">Penanganan Error</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center mb-3">
+              <span
+                class="bg-red-100 text-red-800 px-2 py-1 rounded text-sm font-medium mr-3"
+                >404 Not Found</span
+              >
+            </div>
+            <p class="text-gray-600 text-sm mb-3">
+              Terjadi saat meminta tipe soal yang tidak valid.
+            </p>
+            <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
+  "message": "Tipe soal tidak ditemukan!"
+}</code></pre>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center mb-3">
+              <span
+                class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm font-medium mr-3"
+                >400 Bad Request</span
+              >
+            </div>
+            <p class="text-gray-600 text-sm mb-3">
+              Terjadi saat mengirim data jawaban dengan format yang salah.
+            </p>
+            <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
+  "message": "Format input harus berupa array!"
+}</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="ringkasan-kategori" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6 border-b pb-2">
+          Ringkasan Kategori Soal
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg shadow-md p-6 text-center">
+            <h3 class="text-xl font-semibold mb-2">Structure</h3>
+            <p class="text-gray-600 text-sm mb-3">
+              Soal tata bahasa dan ekspresi tulisan.
+            </p>
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
+              >30 Soal</span
+            >
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6 text-center">
+            <h3 class="text-xl font-semibold mb-2">Reading</h3>
+            <p class="text-gray-600 text-sm mb-3">
+              Pemahaman bacaan dengan beberapa teks.
+            </p>
+            <span
+              class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium"
+              >6 Bacaan, 30 Soal</span
+            >
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6 text-center">
+            <h3 class="text-xl font-semibold mb-2">Listening</h3>
+            <p class="text-gray-600 text-sm mb-3">
+              Pemahaman audio dialog dan monolog.
+            </p>
+            <span
+              class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium"
+              >9 Audio, 40 Soal</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+      <div class="container mx-auto px-6 text-center">
+        <p>
+          &copy; 2025 API Latihan TOEFL.
+          <br /><span style="font-size: 13px">
+            Dibuat untuk menyelesaikan tugas Dasar Emrograman Web .
+          </span>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      function copyToClipboard(elementId, button) {
+        const element = document.getElementById(elementId);
+        const text = element.querySelector("code").textContent;
+
+        navigator.clipboard
+          .writeText(text)
+          .then(() => {
+            const originalText = button.textContent;
+            button.textContent = "Tersalin!";
+            button.classList.add("bg-green-500");
+            button.classList.remove("bg-blue-500");
+
+            setTimeout(() => {
+              button.textContent = originalText;
+              button.classList.remove("bg-green-500");
+              button.classList.add("bg-blue-500");
+            }, 2000);
+          })
+          .catch((err) => {
+            console.error("Gagal menyalin teks: ", err);
+          });
+      }
+    </script>
+  </body>
+</html>

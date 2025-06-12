@@ -1,10 +1,12 @@
 const express = require("express");
+const path = require("path");
 const soalData = require("./data/soal.json");
 
 const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(express.static("public"));
 
 const allQuestions = [];
 function pushQuestions(params) {
@@ -30,7 +32,7 @@ allQuestions.forEach((question) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Gatau Pokoknya ini API TOEFL buat tugas DPW");
+  res.sendFile(path.join(__dirname, "/public/views/index.html"));
 });
 
 app.get("/api/soal", (req, res) => {
