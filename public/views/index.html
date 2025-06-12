@@ -285,33 +285,59 @@ fetch(`${BASE_URL}/api/submit`, {
 
       <section id="error" class="mb-12">
         <h2 class="text-3xl font-bold mb-6 border-b pb-2">Penanganan Error</h2>
-        <div class="grid md:grid-cols-2 gap-6">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="bg-white rounded-lg shadow-md p-6">
             <div class="flex items-center mb-3">
               <span
                 class="bg-red-100 text-red-800 px-2 py-1 rounded text-sm font-medium mr-3"
-                >404 Not Found</span
               >
+                404 Not Found
+              </span>
             </div>
             <p class="text-gray-600 text-sm mb-3">
-              Terjadi saat meminta tipe soal yang tidak valid.
+              Terjadi saat meminta resource yang tidak ada (mis. tipe soal).
             </p>
             <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
   "message": "Tipe soal tidak ditemukan!"
 }</code></pre>
           </div>
+
           <div class="bg-white rounded-lg shadow-md p-6">
             <div class="flex items-center mb-3">
               <span
                 class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm font-medium mr-3"
-                >400 Bad Request</span
               >
+                422 Unprocessable Entity
+              </span>
             </div>
             <p class="text-gray-600 text-sm mb-3">
-              Terjadi saat mengirim data jawaban dengan format yang salah.
+              Terjadi saat validasi data gagal (mis. email sudah terdaftar).
             </p>
             <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
-  "message": "Format input harus berupa array!"
+  "message": "Validasi gagal.",
+  "errors": {
+    "email": [
+      "Email sudah terdaftar."
+    ]
+  }
+}</code></pre>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex items-center mb-3">
+              <span
+                class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm font-medium mr-3"
+              >
+                400 Bad Request
+              </span>
+            </div>
+            <p class="text-gray-600 text-sm mb-3">
+              Terjadi saat format request salah (mis. bukan JSON array).
+            </p>
+            <pre class="bg-gray-50 p-3 rounded text-sm"><code>{
+  "message": "Format input harus berupa 
+  array!"
 }</code></pre>
           </div>
         </div>
