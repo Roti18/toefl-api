@@ -35,14 +35,6 @@ REST API sederhana yang menyediakan soal-soal latihan TOEFL dari berbagai katego
 └── package.json
 ```
 
-## 🚀 Endpoint API Utama
-
-| Metode | Endpoint                 | Deskripsi                                    |
-| :----- | :----------------------- | :------------------------------------------- |
-| `GET`  | `/api/soal/:tipe`        | Mengambil semua soal dari kategori tertentu. |
-| `GET`  | `/api/soal/:tipe/random` | Mengambil satu soal/paket soal acak.         |
-| `POST` | `/api/submit`            | Mengirim jawaban untuk dihitung skornya.     |
-
 _Untuk detail lengkap, parameter, dan contoh, silakan kunjungi [halaman dokumentasi](https://toefl-api.vercel.app/)._
 
 ## 🛠️ Cara Menjalankan Secara Lokal
