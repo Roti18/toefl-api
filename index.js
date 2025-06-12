@@ -1,6 +1,5 @@
 const express = require("express");
 const path = require("path");
-const cors = require("cors");
 const soalData = require("./data/soal.json");
 
 const app = express();
@@ -8,7 +7,6 @@ const port = 3000;
 
 app.use(express.json());
 app.use(express.static("public"));
-app.use(cors());
 
 const allQuestions = [];
 function pushQuestions(params) {
@@ -21,19 +19,15 @@ allQuestions.push(...soalData.structure);
 pushQuestions(soalData.reading);
 pushQuestions(soalData.listening);
 
-// soalData.reading.forEach((passage) => {
-//   allQuestions.push(...passage.questions);
-// });
-// soalData.listening.forEach((audioItem) => {
-//   allQuestions.push(...audioItem.questions);
-// });
-
 const questionsMap = new Map();
 allQuestions.forEach((question) => {
   questionsMap.set(question.id, question);
 });
 
 app.get("/", (req, res) => {
+  res.send("Selamat anda sudah terhubung ke API TOEFL");
+});
+app.get("/document", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/views/index.html"));
 });
 
