@@ -50,7 +50,7 @@ _Untuk detail lengkap, parameter, dan contoh, silakan kunjungi [halaman dokument
 1.  **Clone repository ini:**
 
     ```bash
-    git clone [https://github.com/Roti18/toefl-api](https://github.com/Roti18/toefl-api)
+    git clone https://github.com/Roti18/toefl-api
     cd toefl-api
     ```
 
