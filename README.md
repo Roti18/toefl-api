@@ -50,8 +50,8 @@ _Untuk detail lengkap, parameter, dan contoh, silakan kunjungi [halaman dokument
 1.  **Clone repository ini:**
 
     ```bash
-    git clone [https://github.com/NAMA_USER_ANDA/NAMA_REPO_ANDA.git](https://github.com/NAMA_USER_ANDA/NAMA_REPO_ANDA.git)
-    cd NAMA_REPO_ANDA
+    git clone [https://github.com/Roti18/toefl-api](https://github.com/Roti18/toefl-api)
+    cd toefl-api
     ```
 
 2.  **Install semua dependency:**
