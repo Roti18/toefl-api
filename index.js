@@ -1,12 +1,14 @@
 const express = require("express");
 const path = require("path");
 const soalData = require("./data/soal.json");
+const cors = require("cors");
 
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 app.use(express.static("public"));
+app.use(cors());
 
 const allQuestions = [];
 function pushQuestions(params) {
