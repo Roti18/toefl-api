@@ -4,7 +4,7 @@
 
 REST API sederhana yang menyediakan soal-soal latihan TOEFL dari berbagai kategori. Proyek ini dibuat untuk tujuan edukasi, menunjukkan cara membangun API dari nol menggunakan Node.js dan Express.js, serta cara menyajikan data dari file JSON statis.
 
-**Dokumentasi Live bisa diakses di:** [https://toefl-api-production.up.railway.app/document](https://toefl-api-production.up.railway.app/document)
+**Dokumentasi Live bisa diakses di:** [https://toefl-api.vercel.app/document](https://toefl-api.vercel.app/document)
 
 ## ✨ Fitur Utama
 
@@ -35,7 +35,7 @@ REST API sederhana yang menyediakan soal-soal latihan TOEFL dari berbagai katego
 └── package.json
 ```
 
-_Untuk detail lengkap, parameter, dan contoh, silakan kunjungi [halaman dokumentasi](https://toefl-api-production.up.railway.app/document)._
+_Untuk detail lengkap, parameter, dan contoh, silakan kunjungi [halaman dokumentasi](https://toefl-api.vercel.app/document)._
 
 ## 🛠️ Cara Menjalankan Secara Lokal
 
