@@ -29,6 +29,7 @@ allQuestions.forEach((question) => {
 app.get("/", (req, res) => {
   res.send("Selamat anda sudah terhubung ke API TOEFL");
 });
+
 app.get("/document", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/views/index.html"));
 });
